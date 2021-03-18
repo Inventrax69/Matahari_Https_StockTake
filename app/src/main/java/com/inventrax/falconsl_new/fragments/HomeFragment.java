@@ -73,8 +73,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         ll_loading.setOnClickListener(this);
 
         if (scanType.equals("Auto")) {
-            ll_linear1.setVisibility(View.GONE);
-            ll_linear2.setVisibility(View.VISIBLE);
+            ll_linear1.setVisibility(View.VISIBLE);
+            ll_linear2.setVisibility(View.GONE);
         } else {
             ll_linear1.setVisibility(View.VISIBLE);
             ll_linear2.setVisibility(View.GONE);

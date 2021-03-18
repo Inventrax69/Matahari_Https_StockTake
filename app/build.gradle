@@ -10,8 +10,8 @@ android {
         applicationId "com.inventrax.falconsl_new"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 17
-        versionName "1.9.7"
+        versionCode 19
+        versionName "1.9.9"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true

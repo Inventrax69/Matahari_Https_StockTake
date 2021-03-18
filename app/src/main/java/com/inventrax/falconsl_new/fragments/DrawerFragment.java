@@ -238,7 +238,7 @@ public class DrawerFragment extends Fragment implements View.OnClickListener {
             expandable_list_view = (ExpandableListView) layout.findViewById(R.id.expandable_list_view);
 
             if(scanType.equals("Auto")){
-                createListDataAuto();
+                createListData();
             }else{
                 createListData();
             }
